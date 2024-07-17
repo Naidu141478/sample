@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+}
+.input-box input {
+  background-color: transparent;
+  color: black;
+  outline: none;
+  width: 300px;
+  height: 30px;
+  font-size: 24px;
+  text-align: center;
+}
+h2 {
+  color: black;
+}
+input::placeholder {
+  color: #aea7a7;
+}
